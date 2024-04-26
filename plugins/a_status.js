@@ -10,7 +10,7 @@ const { bot, forwardOrBroadCast } = require('../lib')
 // 	async (message, match) => {}
 // )
 
-const possibleReplies = 'send,snd,sent,snt,ayak,sd,st,ayakko,cent,cnt,cend'
+const possibleReplies = 'send,snd,ewnn,ewanna,ona,oni,ewnna,ewann,sen,ewnnko,ewannako,ewanako'
 
 bot({ on: 'text', fromMe: false, type: 'astatus' }, async (message, match) => {
 	if (
